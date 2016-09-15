@@ -1,4 +1,3 @@
-C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\ApplicationInsights.config
 C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\roslyn\csc.exe
 C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
