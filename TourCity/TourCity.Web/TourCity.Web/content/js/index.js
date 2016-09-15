@@ -13,13 +13,11 @@ var maincontroller = tourcityapp.controller('maincontroller',
 //Routes
 tourcityapp.config(['$routeProvider', function ($routeProvider) {
     $routeProvider
-        .when('/',
-        {
-            template: 'Welcome user!'
+        .when('/',{
+            templateUrl: 'home/index.html'
         })
-        .when('/anotherpage',
-        {
-            template: 'Welcome user, again!'
+        .when('/anotherpage',{
+            templateUrl: 'home/index2.html'
         })
         .otherwise({
             template: '404'

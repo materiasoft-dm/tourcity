@@ -171,6 +171,8 @@
     <Content Include="content\js\angular.min.js" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="home\index2.html" />
+    <Content Include="home\index.html" />
     <Content Include="index.html" />
     <Content Include="content\js\index.js" />
     <Content Include="Web.config" />
@@ -187,7 +189,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <None Include="Project_Readme.html" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
