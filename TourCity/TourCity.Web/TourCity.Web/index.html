@@ -4,17 +4,11 @@
     <title></title>
 
     <script type="text/javascript" src="content/js/angular.min.js"></script>
+    <script src="content/js/angular-route.min.js"></script>
 </head>
 <body>
-
-    <div ng-controller="maincontroller">
-        <div>{{Name}}</div>
-        <div>
-            <ul ng-repeat="cat in Categories">
-                <li>{{cat.Name}}</li>
-            </ul>
-        </div>
-    </div>
+    <div ng-view></div>
+   
     <script src="content/js/index.js"></script>
 </body>
 </html>

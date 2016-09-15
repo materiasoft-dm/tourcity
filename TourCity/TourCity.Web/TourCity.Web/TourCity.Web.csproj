@@ -167,6 +167,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="content\js\angular-route.min.js" />
     <Content Include="content\js\angular.min.js" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
