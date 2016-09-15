@@ -154,7 +154,6 @@
     <Folder Include="content\css\" />
     <Folder Include="content\fonts\" />
     <Folder Include="content\images\" />
-    <Folder Include="content\js\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
@@ -168,8 +167,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="content\js\angular.min.js" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="index.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
