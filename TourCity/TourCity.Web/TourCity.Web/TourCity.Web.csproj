@@ -151,6 +151,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="content\css\" />
+    <Folder Include="content\fonts\" />
+    <Folder Include="content\images\" />
+    <Folder Include="content\js\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
