@@ -56,3 +56,14 @@ C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bi
 C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\obj\Debug\TourCity.Web.csprojResolveAssemblyReference.cache
 C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\obj\Debug\TourCity.Web.dll
 C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\obj\Debug\TourCity.Web.pdb
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\EntityFramework.dll
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\System.Data.SQLite.dll
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\System.Data.SQLite.EF6.dll
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\System.Data.SQLite.Linq.dll
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\TourCity.Repository.dll
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\TourCity.Repository.pdb
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\EntityFramework.xml
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\System.Data.SQLite.xml
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\SQLite.CodeFirst.dll
