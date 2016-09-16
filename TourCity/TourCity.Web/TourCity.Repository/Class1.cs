@@ -15,8 +15,7 @@ namespace TourCity.Repository
     {
         public TestContext() : base("TestContext")
         {
-            // Turn off the Migrations, (NOT a code first Db)
-            Database.SetInitializer<TestContext>(new SqliteCreateDatabaseIfNotExists<TestContext>(null));
+           
         }
 
         public DbSet<TestType> TestTypes { get; set; }
@@ -24,7 +23,8 @@ namespace TourCity.Repository
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             // Database does not pluralize table names
-
+            var sqliteConnectionInitializer = new SqliteCreateDatabaseIfNotExists<TestContext>(modelBuilder);
+            Database.SetInitializer(sqliteConnectionInitializer);
         }
 
     }
