@@ -138,3 +138,7 @@ C:\Users\reym\Desktop\tourcity\TourCity\TourCity.Web\TourCity.Web\obj\Debug\Tour
 C:\Users\reym\Desktop\tourcity\TourCity\TourCity.Web\TourCity.Web\obj\Debug\TourCity.Web.pdb
 C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\TourCity.Common.dll
 C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\TourCity.Common.pdb
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
