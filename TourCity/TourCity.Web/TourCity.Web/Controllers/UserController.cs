@@ -4,6 +4,9 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
+using TourCity.Web.Infrastructure;
 using TourCity.Web.Models.Accounts;
 
 namespace TourCity.Web.Controllers
@@ -29,6 +32,8 @@ namespace TourCity.Web.Controllers
             string lname = user.LastName;
             string uname = user.UserName;
             string password = user.Password;
+
+           
 
         }
 
