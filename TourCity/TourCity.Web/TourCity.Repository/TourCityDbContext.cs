@@ -12,30 +12,22 @@ using TourCity.Repository;
 
 namespace TourCity.Repository
 {
-    public class TestContext : DbContext
+    public class TourCityDbContext : DbContext
     {
-        public TestContext() : base("TestContext")
+        public TourCityDbContext() : base("TourCityConnection")
         {
            
         }
-
-        public DbSet<TestType> TestTypes { get; set; }
+        
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             // Database does not pluralize table names
-            var sqliteConnectionInitializer = new SqliteCreateDatabaseIfNotExists<TestContext>(modelBuilder);
+            var sqliteConnectionInitializer = new SqliteCreateDatabaseIfNotExists<TourCityDbContext>(modelBuilder);
             Database.SetInitializer(sqliteConnectionInitializer);
         }
 
     }
 
-    public class TestType
-    {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
-        public string Name { get; set; }
-    }
 }
 

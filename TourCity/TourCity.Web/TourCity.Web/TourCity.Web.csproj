@@ -211,6 +211,10 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\TourCity.Common\TourCity.Common.csproj">
+      <Project>{777c1b3c-af7f-45bf-9944-f89def0aba4e}</Project>
+      <Name>TourCity.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TourCity.Repository\TourCity.Repository.csproj">
       <Project>{49e47ff4-0bde-4843-ba1e-5c3c5c27dd67}</Project>
       <Name>TourCity.Repository</Name>
