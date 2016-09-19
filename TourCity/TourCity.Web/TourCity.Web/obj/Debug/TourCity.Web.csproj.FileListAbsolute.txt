@@ -142,3 +142,12 @@ C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bi
 C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
 C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\Microsoft.AspNet.Identity.Core.xml
 C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\Microsoft.Owin.dll
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\Microsoft.Owin.Security.dll
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\Owin.dll
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\Microsoft.Owin.xml
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\Microsoft.Owin.Security.xml
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\Microsoft.Owin.Security.Cookies.xml
