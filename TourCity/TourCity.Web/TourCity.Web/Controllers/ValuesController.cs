@@ -13,13 +13,6 @@ namespace TourCity.Web.Controllers
         // GET api/<controller>
         public IEnumerable<string> Get()
         {
-            var t = new TestType();
-            t.Name = "blabla";
-
-            TestContext con = new TestContext();
-            con.TestTypes.Add(t);
-            con.SaveChanges();
-
             return new string[] { "value1", "value2" };
         }
 

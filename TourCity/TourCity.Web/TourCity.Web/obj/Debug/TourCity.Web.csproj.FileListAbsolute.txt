@@ -136,3 +136,5 @@ C:\Users\reym\Desktop\tourcity\TourCity\TourCity.Web\TourCity.Web\bin\Antlr3.Run
 C:\Users\reym\Desktop\tourcity\TourCity\TourCity.Web\TourCity.Web\obj\Debug\TourCity.Web.csprojResolveAssemblyReference.cache
 C:\Users\reym\Desktop\tourcity\TourCity\TourCity.Web\TourCity.Web\obj\Debug\TourCity.Web.dll
 C:\Users\reym\Desktop\tourcity\TourCity\TourCity.Web\TourCity.Web\obj\Debug\TourCity.Web.pdb
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\TourCity.Common.dll
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\TourCity.Common.pdb

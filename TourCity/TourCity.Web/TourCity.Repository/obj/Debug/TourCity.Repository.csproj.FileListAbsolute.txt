@@ -28,3 +28,5 @@ C:\Users\reym\Desktop\tourcity\TourCity\TourCity.Web\TourCity.Repository\bin\Deb
 C:\Users\reym\Desktop\tourcity\TourCity\TourCity.Web\TourCity.Repository\obj\Debug\TourCity.Repository.csprojResolveAssemblyReference.cache
 C:\Users\reym\Desktop\tourcity\TourCity\TourCity.Web\TourCity.Repository\obj\Debug\TourCity.Repository.dll
 C:\Users\reym\Desktop\tourcity\TourCity\TourCity.Web\TourCity.Repository\obj\Debug\TourCity.Repository.pdb
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\TourCity.Common.dll
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\TourCity.Common.pdb
