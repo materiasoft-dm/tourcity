@@ -19,11 +19,11 @@ namespace TourCity.Web
             app.CreatePerOwinContext<CustomSignInManager>(CustomSignInManager.Create);
 
 
-            //app.UseCookieAuthentication(new CookieAuthenticationOptions
-            //{
-            //    AuthenticationType = "ApplicationCookie",
-            //    LoginPath = new PathString("/auth/login")
-            //});
+            app.UseCookieAuthentication(new CookieAuthenticationOptions
+            {
+                AuthenticationType = "ApplicationCookie",
+                LoginPath = new PathString("/auth/login")
+            });
 
             PublicClientId = "self";
 

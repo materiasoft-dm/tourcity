@@ -24,7 +24,7 @@ namespace TourCity.Web.Infrastructure
         public override Task<ApplicationUser> FindAsync(string userName, string password)
         {
             var user = this.FindByNameAsync(userName);
-            if (!user.Result.Password.Equals(password)) return null;
+            if (!user.Result.Password.Equals(password)) return Task.FromResult<ApplicationUser>(null);
 
            
 
