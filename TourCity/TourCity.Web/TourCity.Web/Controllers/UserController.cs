@@ -26,6 +26,7 @@ namespace TourCity.Web.Controllers
         }
 
         // POST api/<controller>
+        [Authorize]
         public void Post([FromBody]UserModel user)
         {
             string fname = user.FirstName;

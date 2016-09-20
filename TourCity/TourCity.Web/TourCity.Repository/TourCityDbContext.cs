@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using SQLite.CodeFirst;
+using TourCity.Common.Entities;
 using TourCity.Repository;
 
 namespace TourCity.Repository
@@ -19,6 +20,7 @@ namespace TourCity.Repository
            
         }
         
+        public DbSet<User> Users { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -26,6 +28,8 @@ namespace TourCity.Repository
             var sqliteConnectionInitializer = new SqliteCreateDatabaseIfNotExists<TourCityDbContext>(modelBuilder);
             Database.SetInitializer(sqliteConnectionInitializer);
         }
+
+
 
     }
 

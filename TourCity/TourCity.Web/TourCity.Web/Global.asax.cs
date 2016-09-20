@@ -6,6 +6,7 @@ using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using TourCity.Web.Infrastructure;
 
 namespace TourCity.Web
 {
@@ -19,6 +20,8 @@ namespace TourCity.Web
 
 
             AreaRegistration.RegisterAllAreas();
+            AutomapperConfig.Init();
+            
 
         }
     }

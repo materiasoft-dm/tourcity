@@ -9,8 +9,8 @@ namespace TourCity.Repository.Repositories
 {
     public abstract class RepositoryBase<T> where T : EntityBase
     {
-        private readonly DbContext _context;
-        private readonly IDbSet<T> _entities;
+        protected readonly DbContext _context;
+        protected readonly IDbSet<T> _entities;
 
         protected RepositoryBase(DbContext context)
         {

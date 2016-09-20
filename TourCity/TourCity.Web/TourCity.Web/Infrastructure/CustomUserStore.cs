@@ -12,7 +12,7 @@ using TourCity.Web.Models.Accounts;
 
 namespace TourCity.Web.Infrastructure
 {
-    public class CustomUserStore : IUserStore<ApplicationUser>
+    public class CustomUserStore : IUserStore<ApplicationUser>, IUserPasswordStore<ApplicationUser>
     {
         private UserRepository _repo;
         public CustomUserStore()
@@ -29,9 +29,7 @@ namespace TourCity.Web.Infrastructure
         {
             return Task.Run(() =>
             {
-                var domainUser = new User();
-                domainUser.Email = user.UserName;
-                domainUser.Password = user.Password;
+                var domainUser = AutoMapper.Mapper.Map<User>(user);
                 _repo.Create(domainUser);
                 _repo.SaveChanges();
             });
@@ -43,8 +41,7 @@ namespace TourCity.Web.Infrastructure
             return Task.Run(() =>
             {
                 var domainUser = _repo.Retrieve(int.Parse(user.Id));
-                domainUser.Email = user.UserName;
-                domainUser.Password = user.Password;
+                domainUser = AutoMapper.Mapper.Map<User>(user);
                 _repo.SaveChanges();
             });
         }
@@ -62,17 +59,33 @@ namespace TourCity.Web.Infrastructure
         public Task<ApplicationUser> FindByIdAsync(string userId)
         {
             var domainUser = _repo.Retrieve(int.Parse(userId));
-            var user = new ApplicationUser();
-            user.Id = domainUser.Id.ToString();
-            user.Password = domainUser.Password;
-            user.UserName = domainUser.Email;
+            var user = AutoMapper.Mapper.Map<ApplicationUser>(domainUser);
 
             return Task.FromResult(user);
         }
 
         public Task<ApplicationUser> FindByNameAsync(string userName)
         {
-            throw new NotImplementedException();
+            var domainUser = _repo.FindByName(userName);
+            if (domainUser == null) return null;
+
+            var user = AutoMapper.Mapper.Map<ApplicationUser>(domainUser);
+
+            return Task.FromResult(user);
+        }
+
+        public Task SetPasswordHashAsync(ApplicationUser user, string passwordHash)
+        {
+            user.PasswordHash = passwordHash;
+            return Task.FromResult(0);
+        }
+        public Task<string> GetPasswordHashAsync(ApplicationUser user)
+        {
+            return Task.FromResult<string>(user.PasswordHash);
+        }
+        public Task<bool> HasPasswordAsync(ApplicationUser user)
+        {
+            return Task.FromResult<bool>(!String.IsNullOrEmpty(user.Password));
         }
     }
 }
