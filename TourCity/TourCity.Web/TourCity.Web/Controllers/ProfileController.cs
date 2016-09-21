@@ -13,5 +13,10 @@ namespace TourCity.Web.Controllers
         {
             return PartialView();
         }
+
+        public PartialViewResult Categories()
+        {
+            return PartialView();
+        }
     }
 }

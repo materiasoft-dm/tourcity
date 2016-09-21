@@ -6,6 +6,7 @@ using System.Web.Mvc;
 
 namespace TourCity.Web.Controllers
 {
+    [AllowAnonymous]
     public class HomeController : Controller
     {
         // GET: Home
@@ -13,5 +14,7 @@ namespace TourCity.Web.Controllers
         {
             return View();
         }
+
+        
     }
 }

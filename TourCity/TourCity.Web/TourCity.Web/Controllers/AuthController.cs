@@ -34,13 +34,13 @@ namespace TourCity.Web.Controllers
         public ActionResult LogIn(ApplicationUser user)
         {
             CustomSignInManager.SignIn(user, isPersistent:true, rememberBrowser:false);
-            return View();
+            return Redirect("~/");
         }
 
         public ActionResult LogOut()
         {
             CustomSignInManager.AuthenticationManager.SignOut();
-            return RedirectToAction("Login");
+            return Redirect("~/");
         }
 
 

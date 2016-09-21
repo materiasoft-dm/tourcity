@@ -16,9 +16,9 @@ tourcityapp.config(['$routeProvider', function ($routeProvider) {
         .when('/',{
             templateUrl: 'Profile/index'
         })
-        //.when('/anotherpage',{
-        //    templateUrl: 'home/index2.html'
-        //})
+       .when('/categories', {
+           templateUrl: 'Profile/categories'
+       })
         .otherwise({
             template: '404'
         });
