@@ -162,3 +162,5 @@ C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bi
 C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\System.Web.Http.Owin.xml
 C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\AutoMapper.dll
 C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\AutoMapper.xml
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\Facebook.dll
+C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Web\bin\Facebook.xml

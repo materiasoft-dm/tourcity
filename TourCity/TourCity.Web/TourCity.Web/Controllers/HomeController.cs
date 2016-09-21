@@ -6,12 +6,12 @@ using System.Web.Mvc;
 
 namespace TourCity.Web.Controllers
 {
-    public class ProfileController : Controller
+    public class HomeController : Controller
     {
         // GET: Home
-        public PartialViewResult Index()
+        public ActionResult Index()
         {
-            return PartialView();
+            return View();
         }
     }
 }
