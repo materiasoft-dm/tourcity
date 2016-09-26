@@ -231,6 +231,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\Api\Controllers\" />
+    <Folder Include="Areas\Api\Models\" />
+    <Folder Include="Areas\Api\Views\Shared\" />
     <Folder Include="content\css\" />
     <Folder Include="content\fonts\" />
     <Folder Include="content\images\" />
@@ -240,6 +243,8 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Areas\Api\ApiAreaRegistration.cs" />
+    <Compile Include="Controllers\FacebookManagerController.cs" />
     <Compile Include="Controllers\AuthController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProfileController.cs" />
@@ -254,6 +259,7 @@
     <Compile Include="Infrastructure\CustomUserStore.cs" />
     <Compile Include="Infrastructure\SigninManager.cs" />
     <Compile Include="Models\Accounts\ApplicationUser.cs" />
+    <Compile Include="Models\Accounts\FacebookUser.cs" />
     <Compile Include="Models\Accounts\LoginModel.cs" />
     <Compile Include="Models\Accounts\UserModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -308,6 +314,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Profile\Categories.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Areas\Api\Views\web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\FacebookManager\Register.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

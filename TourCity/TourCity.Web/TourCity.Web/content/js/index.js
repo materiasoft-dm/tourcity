@@ -13,12 +13,16 @@ var maincontroller = tourcityapp.controller('maincontroller',
 //Routes
 tourcityapp.config(['$routeProvider', function ($routeProvider) {
     $routeProvider
-        .when('/',{
+        .when('/', {
             templateUrl: 'Profile/index'
         })
        .when('/categories', {
            templateUrl: 'Profile/categories'
        })
+        .when('/facebook/register', {
+            templateUrl: 'facebookmanager/register'
+        })
+
         .otherwise({
             template: '404'
         });
