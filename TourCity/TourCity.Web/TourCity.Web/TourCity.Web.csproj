@@ -234,6 +234,8 @@
     <Folder Include="Areas\Api\Controllers\" />
     <Folder Include="Areas\Api\Models\" />
     <Folder Include="Areas\Api\Views\Shared\" />
+    <Folder Include="Areas\Widgets\Models\" />
+    <Folder Include="Areas\Widgets\Views\Shared\" />
     <Folder Include="content\css\" />
     <Folder Include="content\fonts\" />
     <Folder Include="content\images\" />
@@ -244,6 +246,8 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Areas\Api\ApiAreaRegistration.cs" />
+    <Compile Include="Areas\Widgets\Controllers\MapController.cs" />
+    <Compile Include="Areas\Widgets\WidgetsAreaRegistration.cs" />
     <Compile Include="Controllers\FacebookManagerController.cs" />
     <Compile Include="Controllers\AuthController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -320,6 +324,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\FacebookManager\Register.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Areas\Widgets\Views\web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Areas\Widgets\Views\Map\Pin.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

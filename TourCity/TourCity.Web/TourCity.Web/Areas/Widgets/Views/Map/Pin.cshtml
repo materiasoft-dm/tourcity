@@ -1,0 +1,43 @@
+﻿
+<style>
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #map {
+        height: 100%;
+    }
+
+</style>
+
+@{
+    string mapId = $"map-{System.Guid.NewGuid()}-{System.Guid.NewGuid()}";
+}
+<div id="@mapId" style="width: 1000px; height: 500px"></div>
+    <script>
+        var map = null;
+        var marker = null;
+
+        function initMap() {
+           // debugger;
+            var myLatLng = {lat: @ViewBag.Lat, lng: @ViewBag.Lon };
+
+            map = new google.maps.Map(document.getElementById('@mapId'), {
+                zoom: @ViewBag.ZoomLevel,
+                center: myLatLng,
+                mapTypeId: google.maps.MapTypeId.ROADMAP 
+            });
+
+            marker = new google.maps.Marker({
+                position: myLatLng,
+                map: map,
+                title: '@ViewBag.MapTitle',
+                animation: google.maps.Animation.DROP
+            });
+        }
+    </script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=@ViewBag.ApiKey&callback=initMap">
+    </script>
