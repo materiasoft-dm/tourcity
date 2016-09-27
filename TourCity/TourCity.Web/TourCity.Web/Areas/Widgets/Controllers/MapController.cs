@@ -20,5 +20,15 @@ namespace TourCity.Web.Areas.Widgets.Controllers
 
             return PartialView();
         }
+
+        public PartialViewResult LocationPicker(string longitude, string latitude)
+        {
+            ViewBag.ApiKey = ConfigurationManager.AppSettings["googleMapApiKey"];
+            ViewBag.Lat = latitude;
+            ViewBag.Lon = longitude;
+            ViewBag.MapTitle = "";
+            ViewBag.ZoomLevel = 15;
+            return PartialView();
+        }
     }
 }
