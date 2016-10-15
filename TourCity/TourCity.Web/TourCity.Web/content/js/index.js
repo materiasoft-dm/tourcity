@@ -22,6 +22,9 @@ tourcityapp.config(['$routeProvider', function ($routeProvider) {
         .when('/facebook/register', {
             templateUrl: 'facebookmanager/register'
         })
+          .when('/space/welcome', {
+              templateUrl: 'Space/Welcome'
+          })
 
         .otherwise({
             template: '404'
