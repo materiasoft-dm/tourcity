@@ -21,6 +21,7 @@ namespace TourCity.Repository
         }
         
         public DbSet<User> Users { get; set; }
+        public DbSet<Space> Spaces { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

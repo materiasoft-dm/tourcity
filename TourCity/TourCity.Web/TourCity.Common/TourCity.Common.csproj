@@ -41,8 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entities\Business.cs" />
     <Compile Include="Entities\BusinessCategory.cs" />
+    <Compile Include="Entities\Space.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="EntityBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

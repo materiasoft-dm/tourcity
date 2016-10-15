@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Repositories\RepositoryBase.cs" />
+    <Compile Include="Repositories\SpaceRepository.cs" />
     <Compile Include="Repositories\UserRepository.cs" />
     <Compile Include="TourCityDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
