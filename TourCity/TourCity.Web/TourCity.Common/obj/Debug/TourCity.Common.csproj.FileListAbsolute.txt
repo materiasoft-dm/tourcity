@@ -3,3 +3,8 @@ C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Common
 C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Common\obj\Debug\TourCity.Common.csprojResolveAssemblyReference.cache
 C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Common\obj\Debug\TourCity.Common.dll
 C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Common\obj\Debug\TourCity.Common.pdb
+C:\Users\reym\Desktop\tourcity\TourCity\TourCity.Web\TourCity.Common\bin\Debug\TourCity.Common.dll
+C:\Users\reym\Desktop\tourcity\TourCity\TourCity.Web\TourCity.Common\bin\Debug\TourCity.Common.pdb
+C:\Users\reym\Desktop\tourcity\TourCity\TourCity.Web\TourCity.Common\obj\Debug\TourCity.Common.csprojResolveAssemblyReference.cache
+C:\Users\reym\Desktop\tourcity\TourCity\TourCity.Web\TourCity.Common\obj\Debug\TourCity.Common.dll
+C:\Users\reym\Desktop\tourcity\TourCity\TourCity.Web\TourCity.Common\obj\Debug\TourCity.Common.pdb

@@ -30,3 +30,5 @@ C:\Users\reym\Desktop\tourcity\TourCity\TourCity.Web\TourCity.Repository\obj\Deb
 C:\Users\reym\Desktop\tourcity\TourCity\TourCity.Web\TourCity.Repository\obj\Debug\TourCity.Repository.pdb
 C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\TourCity.Common.dll
 C:\Users\mark.mendoza\Documents\Playground\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\TourCity.Common.pdb
+C:\Users\reym\Desktop\tourcity\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\TourCity.Common.dll
+C:\Users\reym\Desktop\tourcity\TourCity\TourCity.Web\TourCity.Repository\bin\Debug\TourCity.Common.pdb

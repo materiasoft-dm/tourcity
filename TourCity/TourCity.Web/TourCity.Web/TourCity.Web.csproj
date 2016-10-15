@@ -236,10 +236,7 @@
     <Folder Include="Areas\Api\Views\Shared\" />
     <Folder Include="Areas\Widgets\Models\" />
     <Folder Include="Areas\Widgets\Views\Shared\" />
-    <Folder Include="content\css\" />
-    <Folder Include="content\fonts\" />
-    <Folder Include="content\images\" />
-    <Folder Include="Views\Business\" />
+    <Folder Include="content\images\general\" />
     <Folder Include="Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
@@ -249,11 +246,11 @@
     <Compile Include="Areas\Api\ApiAreaRegistration.cs" />
     <Compile Include="Areas\Widgets\Controllers\MapController.cs" />
     <Compile Include="Areas\Widgets\WidgetsAreaRegistration.cs" />
-    <Compile Include="Controllers\SpaceController.cs" />
     <Compile Include="Controllers\FacebookManagerController.cs" />
     <Compile Include="Controllers\AuthController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProfileController.cs" />
+    <Compile Include="Controllers\SpaceController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -272,8 +269,17 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="content\css\animate.css" />
+    <Content Include="content\css\bootstrap.css" />
+    <Content Include="content\css\font-awesome.css" />
+    <Content Include="content\css\style.css" />
+    <Content Include="content\fonts\font-awesome\fontawesome-webfont.svg" />
+    <Content Include="content\images\space\restaurants\1.png" />
+    <Content Include="content\images\space\restaurants\2.jpg" />
+    <Content Include="content\images\user\1.jpg" />
     <Content Include="content\js\angular-route.min.js" />
     <Content Include="content\js\angular.min.js" />
+    <Content Include="content\js\bootstrap.min.js" />
     <Content Include="content\js\jquery-3.1.0.min.js" />
     <Content Include="content\js\locationpicker.jquery.js" />
     <Content Include="favicon.ico" />
@@ -338,7 +344,29 @@
     <Content Include="Areas\Widgets\Views\Map\LocationPicker.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Space\Welcome.cshtml" />
+    <Content Include="content\fonts\font-awesome\fontawesome-webfont.eot" />
+    <Content Include="content\fonts\font-awesome\fontawesome-webfont.ttf" />
+    <Content Include="content\fonts\font-awesome\fontawesome-webfont.woff" />
+    <Content Include="content\fonts\font-awesome\fontawesome-webfont.woff2" />
+    <Content Include="content\fonts\font-awesome\FontAwesome.otf" />
+    <Content Include="content\fonts\roboto\Roboto-Black.eot" />
+    <Content Include="content\fonts\roboto\Roboto-Black.ttf" />
+    <Content Include="content\fonts\roboto\Roboto-Black.woff" />
+    <Content Include="content\fonts\roboto\Roboto-Italic.eot" />
+    <Content Include="content\fonts\roboto\Roboto-Italic.ttf" />
+    <Content Include="content\fonts\roboto\Roboto-Italic.woff" />
+    <Content Include="content\fonts\roboto\Roboto-Light.eot" />
+    <Content Include="content\fonts\roboto\Roboto-Light.ttf" />
+    <Content Include="content\fonts\roboto\Roboto-Light.woff" />
+    <Content Include="content\fonts\roboto\Roboto-Medium.eot" />
+    <Content Include="content\fonts\roboto\Roboto-Medium.ttf" />
+    <Content Include="content\fonts\roboto\Roboto-Medium.woff" />
+    <Content Include="content\fonts\roboto\Roboto-Regular.eot" />
+    <Content Include="content\fonts\roboto\Roboto-Regular.ttf" />
+    <Content Include="content\fonts\roboto\Roboto-Regular.woff" />
+    <Content Include="content\fonts\roboto\Roboto-Thin.eot" />
+    <Content Include="content\fonts\roboto\Roboto-Thin.ttf" />
+    <Content Include="content\fonts\roboto\Roboto-Thin.woff" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
