@@ -9,6 +9,7 @@ namespace TourCity.Common.Entities
     public class Space : EntityBase
     {
         public string Name { get; set; }
+        public string Title { get; set; }
         public string Welcome { get; set; }
     }
 }

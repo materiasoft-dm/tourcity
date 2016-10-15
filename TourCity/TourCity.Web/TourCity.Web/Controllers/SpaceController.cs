@@ -62,6 +62,7 @@ namespace TourCity.Web.Controllers
                 propertyInfo.SetValue(entity, Convert.ChangeType(value, propertyInfo.PropertyType), null);
 
                 _repo.Update(entity);
+                _repo.SaveChanges();
                 
                 return new HttpStatusCodeResult(HttpStatusCode.OK);
             }
