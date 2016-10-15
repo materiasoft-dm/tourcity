@@ -101,9 +101,9 @@ a:focus, a:active {text-decoration: none;}
 .header-main .right-bar .ua-menu {}
 .header-main .right-bar .ua-menu a.ua-link {display: block; width: 30px; height: 30px; border-radius: 20px; background: url(../images/user/1.jpg) no-repeat; background-size: 100%;}
 
-.space-room {padding: 20px;}
-.space {width: 830px; height: 500px; margin: 0 auto; background: #fff; border: 1px solid #e1e3e3; border-radius: 2px;}
-.space .ls {float: left; width: 230px; background: #fafafa; border-right: 1px solid #e3e3e3; height: 100%;}
+.space-room {padding: 20px 0 0 0;}
+.space {width: 830px; height: auto; margin: 0 auto; background: #fafafa; border: 1px solid #e1e3e3; border-radius: 2px;}
+.space .ls {float: left; width: 230px; min-height: 86vh; /*border-right: 1px solid #e3e3e3;*/ height: 100%;}
 .space .ls .badge {padding: 0 10px; text-align: center;}
 .space .ls .badge .dp {padding-top: 20px; width: 100%; text-align: center; margin-bottom: 10px;}
 .space .ls .badge .dp img {width: 150px;}
@@ -116,10 +116,15 @@ a:focus, a:active {text-decoration: none;}
 .space .ls .s-menu ul {}
 .space .ls .s-menu ul li {}
 .space .ls .s-menu ul li a {font-size: 1.3em; font-weight: 300; color: #333; display: block; padding: 8px 15px;}
+.space .ls .s-menu ul li a i {margin-right: 3px; opacity: 0.3;}
 .space .ls .s-menu ul li a:hover {background: #f1f1f1;}
 .space .ls .s-menu ul li.active a {background: #198adf; color: #fff; position: relative; left: 1px;}
 .space .s-sections {float: left; width: 598px;}
-.space .s-sections .section-box {}
+.space .s-sections .section-box {background: #fff;}
+/*General*/
+.space .s-sections .section-box .sb-header {padding: 12px 15px 0 15px; border-bottom: 1px solid #e3e3e3;}
+.space .s-sections .section-box .sb-header h4 {font-weight: normal; display: inline-block; padding-bottom: 15px; font-size: 1.4em; border-bottom: 1px solid #999; position: relative; top: 1px;}
+/*Welcome*/
 .space .s-sections .section-box .banner-screen {width: 100%;  padding: 5px;}
 .space .s-sections .section-box .banner-screen .banner {width: 100%; height: 250px; background-size: 100%; background: url(../images/space/restaurants/2.jpg) no-repeat;}
 .space .s-sections .section-box .social-bar {padding: 10px 20px 13px 20px; border-bottom: 1px solid #eaeaea;}
@@ -135,3 +140,19 @@ a:focus, a:active {text-decoration: none;}
 .space .s-sections .section-box .social-bar .social-links ul li.youtube a i {color: #e62117;}
 .space .s-sections .section-box .social-bar .social-links ul li.instagram a i {color: #333;}
 .space .s-sections .section-box .social-bar .social-links ul li.google a i {color: #db4437;}
+.space .s-sections .section-box .welcome-room {position: relative;}
+.space .s-sections .section-box .welcome-room a.edit-link {position: absolute; top: 10px; right: 10px; color: #198adf;}
+.space .s-sections .section-box .welcome-room a.edit-link:hover {color: #999;}
+.space .s-sections .section-box .welcome-room .live-content {padding: 20px;}
+.space .s-sections .section-box .welcome-room .live-content h5 {font-weight: 500; margin-bottom: 10px;}
+.space .s-sections .section-box .welcome-room .live-content p {}
+.space .s-sections .section-box .welcome-room .live-content p:last-child {margin-bottom: 0;}
+.space .s-sections .section-box .welcome-room .edit-content {padding: 20px; background: #f5f5f5;}
+.space .s-sections .section-box .welcome-room .edit-content .ec-inner {}
+.space .s-sections .section-box .welcome-room .edit-content .ec-inner label {font-weight: normal; margin-bottom: 5px; display: block;}
+.space .s-sections .section-box .welcome-room .edit-content .ec-inner input {width: 100%; display: block; padding: 5px 10px; margin-bottom: 10px; border: 1px solid #ddd; border-radius: 2px;}
+.space .s-sections .section-box .welcome-room .edit-content .ec-inner textarea {width: 100%; padding: 5px 10px; margin-bottom: 10px; border: 1px solid #ddd; border-radius: 2px;}
+.space .s-sections .section-box .welcome-room .edit-content .ec-inner .commands {padding-top: 10px;}
+.space .s-sections .section-box .welcome-room .edit-content .ec-inner .commands a.button-epic {display: inline-block; background: #198adf; border: 1px solid #198adf; padding: 5px 20px; border-radius: 3px; color: #fff; margin-right: 5px;}
+.space .s-sections .section-box .welcome-room .edit-content .ec-inner .commands a.button-normal {display: inline-block; background: #ddd; border: 1px solid #aaa; padding: 5px 20px; border-radius: 3px; color: #333; margin-right: 5px;}
+/*Info*/
