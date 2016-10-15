@@ -2,6 +2,13 @@
 
 var mainspacecontroller = tourcityapp.controller('main-space',
     function ($scope, $http) {
+
+
+        var config = {
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8;'
+            }
+        }
         
         getBusiness($http);
        
@@ -13,31 +20,18 @@ var mainspacecontroller = tourcityapp.controller('main-space',
 
         $scope.SaveWelcome = function()
         {
-            saveTitle();
-           
-        }
-
-        function saveTitle() {
             var data = $.param({
                 value: $scope.businessData.Title,
                 propertyName: "Title",
                 id: $scope.businessData.Id
             });
 
-            var config = {
-                headers: {
-                    'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8;'
-                }
-            }
-
             $http.post('/space/UpdateProperty', data, config)
             .success(function (data, status, headers, config) {
                 saveWelcome();
-            })
-            .error(function (data, status, header, config) {
-                debugger;
             });
         }
+
 
         function saveWelcome()
         {
@@ -47,7 +41,10 @@ var mainspacecontroller = tourcityapp.controller('main-space',
                 id: $scope.businessData.Id
             });
 
-            updateField(data);
+            $http.post('/space/UpdateProperty', data, config)
+            .success(function (data, status, headers, config) {
+               
+            });
         }
 
         function showEdit()
@@ -55,6 +52,7 @@ var mainspacecontroller = tourcityapp.controller('main-space',
              $('#welcome-display').hide();
             $('#welcome-edit').fadeIn(150);
         }
+
         function hideEdit()
         {
             $('#welcome-edit').hide();
