@@ -1,0 +1,137 @@
+/*FONTS*/
+/*Roboto Thin*/
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../fonts/roboto/Roboto-Thin.eot');
+    src: url('../../fonts/roboto/Roboto-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/roboto/Roboto-Thin.woff') format('woff'),
+        url('../../fonts/roboto/Roboto-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+/*Roboto Light*/
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../fonts/roboto/Roboto-Light.eot');
+    src: url('../../fonts/roboto/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/roboto/Roboto-Light.woff') format('woff'),
+        url('../../fonts/roboto/Roboto-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+/*Roboto Normal*/
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../fonts/roboto/Roboto-Regular.eot');
+    src: url('../../fonts/roboto/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/roboto/Roboto-Regular.woff') format('woff'),
+        url('../../fonts/roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+    src: url('../../fonts/roboto/Roboto-Italic.eot');
+    src: url('../../fonts/roboto/Roboto-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/roboto/Roboto-Italic.woff') format('woff'),
+        url('../../fonts/roboto/Roboto-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/*Roboto Medium*/
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../fonts/roboto/Roboto-Medium.eot');
+    src: url('../../fonts/roboto/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/roboto/Roboto-Medium.woff') format('woff'),
+        url('../../fonts/roboto/Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+/*Roboto Black*/
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../fonts/roboto/Roboto-Black.eot');
+    src: url('../../fonts/roboto/Roboto-Black.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/roboto/Roboto-Black.woff') format('woff'),
+        url('../../fonts/roboto/Roboto-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+/* ...CUSTOM RESET... */
+*:focus, *:active {outline: 0;}
+html {}
+ul {list-style: none; margin: 0; padding: 0;}
+
+body {
+    background: #eef1f2;
+    font-family: "Roboto", arial, sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: #2f2f2f;
+}
+h1,h2,h3,h4,h5,h6 {font-family: "Roboto"; margin: 0; font-weight: normal;}
+a {
+    color: #f6b33e;
+    transition: 0.1s all linear;
+    -webkit-transition: 0.1s all linear;
+    -moz-transition: 0.1s all linear;
+    -ms-transition: 0.1s all linear;
+}
+a:hover {text-decoration: none; color: #999999;}
+a:focus, a:active {text-decoration: none;}
+
+/*GENERAL*/
+.header-main {}
+.header-main {position: relative; height: 45px; background: #fff; border-bottom: 1px solid #ddd;}
+.header-main .left-bar {width: 250px; height: 100%; background: #198adf; position: absolute; top: 0; left: 0; z-index: 1000;}
+.header-main .left-bar .side-menu {position: relative;}
+.header-main .left-bar .side-menu a.hb-link {color: #14629d; font-size: 1.7em; margin: 12px 0 0 25px; float: left}
+.header-main .left-bar .side-menu .hb-menu {display: none; position: absolute;}
+.header-main .left-bar .side-menu .hb-menu ul {}
+.header-main .left-bar .side-menu .hb-menu ul li {}
+.header-main .left-bar .side-menu .hb-menu ul li a {}
+.header-main .left-bar .logo {float: left; margin: 12px 0 0 45px;}
+.header-main .left-bar .logo a {color: #fff; font-size: 2em; font-weight: 300;}
+.header-main .left-bar .logo a strong {}
+.header-main .right-bar {float: right; margin: 8px 20px 0 0;}
+.header-main .right-bar .ua-menu {}
+.header-main .right-bar .ua-menu a.ua-link {display: block; width: 30px; height: 30px; border-radius: 20px; background: url(../../images/user/1.jpg) no-repeat; background-size: 100%;}
+
+.space-room {padding: 20px;}
+.space {width: 830px; height: 500px; margin: 0 auto; background: #fff; border: 1px solid #e1e3e3; border-radius: 2px;}
+.space .ls {float: left; width: 230px; background: #fafafa; border-right: 1px solid #e3e3e3; height: 100%;}
+.space .ls .badge {padding: 0 10px; text-align: center;}
+.space .ls .badge .dp {padding-top: 20px; width: 100%; text-align: center; margin-bottom: 10px;}
+.space .ls .badge .dp img {width: 150px;}
+.space .ls .badge h3 {font-weight: normal; font-size: 1.6em; margin-bottom: 5px;}
+.space .ls .badge h3 span.tag {font-weight: 300;}
+.space .ls .badge h3 i {color: #198adf; margin-left: 4px;}
+.space .ls .badge address {opacity: 0.9; font-size: 1.04em;}
+.space .ls .badge address i {opacity: 0.4;}
+.space .ls .s-menu {}
+.space .ls .s-menu ul {}
+.space .ls .s-menu ul li {}
+.space .ls .s-menu ul li a {font-size: 1.3em; font-weight: 300; color: #333; display: block; padding: 8px 15px;}
+.space .ls .s-menu ul li a:hover {background: #f1f1f1;}
+.space .ls .s-menu ul li.active a {background: #198adf; color: #fff; position: relative; left: 1px;}
+.space .s-sections {float: left; width: 598px;}
+.space .s-sections .section-box {}
+.space .s-sections .section-box .banner-screen {width: 100%;  padding: 5px;}
+.space .s-sections .section-box .banner-screen .banner {width: 100%; height: 250px; background-size: 100%; background: url(../../images/space/restaurants/2.jpg) no-repeat;}
+.space .s-sections .section-box .social-bar {padding: 10px 20px 13px 20px; border-bottom: 1px solid #eaeaea;}
+.space .s-sections .section-box .social-bar .recommend {float: left;}
+.space .s-sections .section-box .social-bar .recommend a.recommend-button {display: inline-block; background: #198adf; padding: 6px 10px; border-radius: 3px; color: #fff; margin-right: 5px;}
+.space .s-sections .section-box .social-bar .recommend span.recommend-count {font-size: 1.1em; opacity: 0.9;}
+.space .s-sections .section-box .social-bar .social-links {float: right; margin-top: 8px;}
+.space .s-sections .section-box .social-bar .social-links ul {}
+.space .s-sections .section-box .social-bar .social-links ul li {display: inline-block;}
+.space .s-sections .section-box .social-bar .social-links ul li a {font-size: 1.4em; margin-left: 10px;}
+.space .s-sections .section-box .social-bar .social-links ul li.facebook a i {color: #4267b2;}
+.space .s-sections .section-box .social-bar .social-links ul li.twitter a i {color: #1da1f2;}
+.space .s-sections .section-box .social-bar .social-links ul li.youtube a i {color: #e62117;}
+.space .s-sections .section-box .social-bar .social-links ul li.instagram a i {color: #333;}
+.space .s-sections .section-box .social-bar .social-links ul li.google a i {color: #db4437;}
